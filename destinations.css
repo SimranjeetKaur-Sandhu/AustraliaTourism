@@ -1,0 +1,47 @@
+.dest-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2em;
+  height: 8em;
+  margin: 1vh 0px;
+  border-radius: 2vh;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.dest-div:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s ease-out;
+}
+
+#mel {
+  background: url(../images/destinations/melbourne.jpg);
+  background-position: bottom;
+}
+
+#coral {
+  background: url(../images/destinations/coral-reef.jpg);
+  background-position: bottom;
+}
+
+#bondi {
+  background: url(../images/destinations/bondi-beach.jpg);
+  background-position: bottom;
+}
+
+#opera {
+  background: url(../images/destinations/opera-house.jpg);
+  background-position: center;
+}
+
+span {
+  color: #ddd;
+  background: #333;
+  padding: 0px 0.3em;
+  border-radius: 0.3em;
+}
+
+a {
+  text-decoration: none;
+}
