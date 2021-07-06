@@ -1,0 +1,38 @@
+#intro-img {
+  height: 60vh;
+  display: flex;
+  background: url(../images/destinations/melbourne.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  animation: expand ease-out 1s;
+}
+
+.cont-head {
+  align-self: flex-end;
+  display: block;
+  width: 100%;
+}
+
+.text-div {
+  max-width: 90%;
+  display: block;
+  margin: 1vh auto;
+}
+
+.mid {
+  background-position: 0vw !important;
+}
+
+.bottom {
+  background-position: bottom !important;
+}
+
+@keyframes expand {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 60vh;
+  }
+}
