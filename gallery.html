@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <title>Australia Tourism</title>
+</head>
+
+<body>
+    <header>
+        <h1> <a class="logo nav-link" href="/">Visit-Australia</a> </h1>
+        <nav>
+            <ul class="nav-list">
+                <li id="theme-btn"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="cont-head">Gallery</h1>
+        <div id="image-div"></div>
+        <div id="up-div">
+            <h1 class="cont-head">Upload Your images</h1>
+            <input type="file" id="up-img" accept="image/jpeg,image/png" />
+            <button id="up-btn">Upload</button>
+            <p style="color: red;">Image resolution should be less than or equal to 1440p*</p>
+        </div>
+    </main>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+    <script src="../scripts/theme.js"></script>
+    <script src="../scripts/verifyAndUpload.js"></script>
+</body>
+
+</html>
